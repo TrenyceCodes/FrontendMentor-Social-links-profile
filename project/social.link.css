@@ -1,0 +1,119 @@
+:root {
+    --primary-green: hsl(75, 94%, 57%);
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-grey: hsl(0, 0%, 20%);
+    --neutral-dark-grey: hsl(0, 0%, 12%);
+    --neutral-off-black: hsl(0, 0%, 8%);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("../assets/fonts/Inter.ttf");
+}
+
+body {
+    background-color: var(--neutral-off-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+    min-height: 100vh;
+}
+
+main {
+    background-color: var(--neutral-dark-grey);
+    border-radius: 15px;
+    width: 384px;
+    height: 612px;
+}
+
+.userInformation, .social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--neutral-white);
+    font-family: Inter, "sans-serif";
+    font-weight: normal;
+}
+
+.userInformation > .avatarImg {
+    border-radius: 50%;
+    height: 100px;
+    padding: 10px;
+}
+
+.userInformation > h3 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.userInformation > p:nth-child(3) {
+    color: var(--primary-green);
+    font-size: 14px;
+    margin-top: -14px;
+    font-weight: normal;
+}
+
+.userInformation > p:nth-child(4) {
+    font-size: 14px;
+}
+
+.social-links > button {
+    background-color: var(--neutral-grey);
+    border: none;
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.social-links > button > a {
+    color: var(--neutral-white);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+}
+
+.social-links > button:hover,
+.social-links > button > a:hover {
+    color: var(--neutral-dark-grey);
+    background-color: var(--primary-green);
+}
+
+.attribution,
+.attribution > a  {
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--neutral-white);
+}
+
+.attribution {
+    position: fixed;
+    bottom: 1em;
+    font-size: 14px;
+}
+
+.attribution > a:hover {
+    color: var(--primary-green);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) { 
+    main {
+        background-color: var(--neutral-dark-grey);
+        border-radius: 15px;
+        width: 323px;
+        height: 576px;
+    }
+
+    .social-links > button {
+        background-color: var(--neutral-grey);
+        border: none;
+        width: 20.5em;
+        height: 3.5em;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+}
