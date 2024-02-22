@@ -38,9 +38,17 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+<<<<<<< HEAD
 - Mobile-first workflowhe future.**
+=======
+- Mobile-first workflow future
+>>>>>>> 7d6b1679ca1bc5c395f788a4422015e39b1cd03d
 
 ## Author
 
 - Github - [@TrenyceCodes](https://github.com/TrenyceCodes)
+<<<<<<< HEAD
 - Frontend Mentor - [@TrenyceCodes](https://www.frontendmentor.io/profile/TrenyceCodes)
+=======
+- Frontend Mentor - [@TrenyceCodes](https://www.frontendmentor.io/profile/TrenyceCodes)
+>>>>>>> 7d6b1679ca1bc5c395f788a4422015e39b1cd03d
